@@ -5,7 +5,8 @@ Newest first. One line per thing that happened, plus a link to the note.
 | Date | What | Note |
 | --- | --- | --- |
 | 2026-10-01 | Research questions rewritten and assumptions ranked. Added A7: the tracker records priority changes | [research-questions.md](research-questions.md) |
-| 2026-10-01 | Name check: keep "Unknot". No EU/DE trademark conflict, .com taken | [name-check.md](name-check.md) |
+| 2026-10-01 | Interview questions rewritten as scenarios (S1–S13) with a run order per role | [research-questions.md](research-questions.md) |
+| 2026-10-01 | Name check done. Decision: rename, new name picked before week 5 | [name-check.md](name-check.md) |
 | 2026-10-01 | Drafted the message to Yoav (Cyvore) | [outreach/yoav-cyvore.md](outreach/yoav-cyvore.md) |
 
 ## Folders

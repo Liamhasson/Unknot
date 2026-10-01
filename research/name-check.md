@@ -2,9 +2,13 @@
 
 Checked Oct 1, 2026. Week 1 task. Decision needed before any brand work (week 5).
 
-## Verdict
+## Decision (Oct 1)
 
-**Keep "Unknot" for the case study.** No EU or German trademark blocks it, and nothing is registered in the software classes (9 and 42). Two things aren't legal blockers but are worth knowing: the .com is gone, and the best-known "Unknot" company sells location tracking for people. A real company launch would need a proper clearance search, which is out of scope until phase 2 or later.
+**Rename.** Picking the new name is parked for later, but it has to happen before any brand work (week 5). Same checks apply to the new name: EU/DE trademarks in classes 9 and 42, a usable domain, and no well-known product with the same name.
+
+## Original verdict
+
+Keep "Unknot" for the case study. No EU or German trademark blocks it, and nothing is registered in the software classes (9 and 42). Two things aren't legal blockers but are worth knowing: the .com is gone, and the best-known "Unknot" company sells location tracking for people. A real company launch would need a proper clearance search, which is out of scope until phase 2 or later.
 
 ## Trademarks
 

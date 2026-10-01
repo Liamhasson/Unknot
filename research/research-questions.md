@@ -4,7 +4,11 @@ Week 1. Five research questions, each tied to something we build or decide in th
 
 **One rule for every scenario:** people are bad at predicting what they'd do. Every scenario ends with **"When did something like this last happen? What did you actually do?"** The scenario gets them talking. The real story is the evidence.
 
+**S1–S13** are the scenarios, numbered in the order they appear below.
+
 Role tags: **[all]** everyone, **[member]** team members only, **[lead]** team leads only.
+
+**Task tracker:** the tool where a team's tickets live, with a status on each (Jira, Linear, Trello, Asana, GitHub, Notion…). Always name it in the interviewee's own words once you know which one they use.
 
 ---
 
@@ -19,7 +23,7 @@ Role tags: **[all]** everyone, **[member]** team members only, **[lead]** team l
 >
 > What do you do with those two tickets this week?
 
-Probe: Who would you ask? Would you quietly finish the 80% one? What happens to them on the board?
+Probe: Who would you ask? Would you quietly finish the 80% one? What happens to them in your task tracker?
 
 **S2 [all]: Three weeks later**
 > Three weeks after that switch, someone notices a teammate is still building for the old goal.
@@ -36,15 +40,15 @@ Probe: How often does this happen? What did it cost the last time?
 
 **Feeds:** detection rules v0, tuning, the check-up shortlist, A6/A7 hand checks.
 
-**S3 [all]: The board a week later**
+**S3 [all]: The tracker a week later**
 > Same Monday switch. A week has passed.
 >
-> If I opened your board right now, what on it would show that priorities changed? Who would have changed it?
+> If I opened your team's task tracker right now, what in it would show that priorities changed? Who would have changed it?
 
-Probe: Are there tickets on your board right now that everyone knows are dead? Why are they still there?
+Probe: Are there tickets in it right now that everyone knows are dead? Why are they still there?
 
 **S4 [all]: The new joiner**
-> A new person joins your team tomorrow. Nobody briefs them. They only look at the board to work out what matters.
+> A new person joins your team tomorrow. Nobody briefs them. To work out what the team is working on and what matters, they only look at your task tracker: the tickets, their status and who they're assigned to.
 >
 > What would they get wrong?
 
@@ -81,9 +85,11 @@ Probe: How much effort would you put into correcting it? What if it made the sam
 **Feeds:** fix routing, approval rules, fact card tone, decision lead persona, buyer profile.
 
 **S7 [lead]: It was you**
-> You made those 3 priority changes, each for a good reason. The message from S5 lands in your DMs, and it's clearly about your calls.
+> Over the last month, you changed your team's priorities 3 times, each for a good reason. On Monday, a tool your company uses sends you this DM, with links to each ticket:
 >
-> How does it land? What would you want it to say instead?
+> *"Platform's priorities changed 3 times in the last 30 days. 4 tickets started before those changes haven't moved in 14+ days. 2 people are still working on Self-serve billing, which was dropped on Sep 12."*
+>
+> The changes it's counting are your calls. How does it land? What would you want it to say instead?
 
 Probe: Would you rather it went to someone else? Who else should see it?
 
@@ -111,19 +117,23 @@ Probe: Would you rather it went to someone else? Who else should see it?
 **Feeds:** approval rules, Company view content, the "What Unknot sees" page, the surveillance-worry test measure.
 
 **S11 [all]: Your stop list**
-> You get a DM: *"2 of your tickets are on the stop list. Archive them or hand over your notes?"*
+> Your lead has just shared a list of what the team is stopping after the last priority change. Then you get a DM: *"2 of your tickets are on the stop list. Archive them or hand over your notes?"*
 >
-> Helpful, bossy, or something else? What would you change?
+> What's your first reaction? What would you do with it?
+
+Probe: Would you change anything about how it's said or who sends it?
 
 **S12 [member]: The overlap**
 > You were one of the two still working on the dropped goal. The tool shows you where your work overlaps with the new goal and suggests a 15-minute chat with your lead. Your lead already said yes.
 >
 > How does that feel?
 
-**S13 [all]: The leadership page**
-> Your company's leadership has a page showing which teams change priorities most and where the changes come from. Your team is at the top.
+**S13 [all]: The planning review**
+> Before quarterly planning, leadership gets a one-page summary per team. It shows how many times priorities changed, where each change came from (the team itself, another team's request, or leadership), and how much started work was dropped because of it. It's about the team as a whole, never about one person.
 >
-> How do you feel? And what if everyone could see the exact same page?
+> What would you want that page to show about your team? What should it never show?
+
+Probe: Who should be able to see it? Would anything change if you could see the same page for every team, including leadership's own?
 
 ---
 
@@ -159,7 +169,7 @@ Members and leads get different sets so each interview fits in 40 minutes. Scena
 | 3 | Intro and consent | ✓ | ✓ |
 | 6 | Walk me through your last week | ✓ | ✓ |
 | 10 | The switch | S1, S2 | S1, S2 *if time* |
-| 5 | The board | S3, S4 | S3, S4 *if time* |
+| 5 | The tracker | S3, S4 | S3, S4 *if time* |
 | 8 | The message | S5, S9 | S5, S6, S7, S8 |
 | 6 | The boundaries | S11, S12, S13 | S13, S10 |
-| 2 | Close: "Once it works, could I run it on your board once?" | ✓ | ✓ |
+| 2 | Close: "Once it works, could I run it once on your team's task tracker?" | ✓ | ✓ |

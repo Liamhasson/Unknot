@@ -112,6 +112,11 @@ Every week is 20 hours: 9 to 13, Monday to Friday. Each week ends with a gate. I
 - [ ] Set up the Figma file, code repo and a research log (1h)
 - [ ] Name check: domain and trademark search for "Unknot" (1h)
 - [ ] Pick 3 public GitHub projects with active roadmaps and pull their issues and history with Claude Code (6h)
+  - [ ] Create a free fine-grained GitHub token (read-only, public repos) and store it in `.env.local`, which is in `.gitignore`
+  - [ ] Pull issues with labels, milestones, assignees, dates, and timeline events: milestoned, demilestoned, labeled, unlabeled, assigned, closed, reopened
+  - [ ] Save raw data in `data/raw/<repo>/`, kept out of git
+  - [ ] Write a short report per repo: issue count, which signals exist and how often, anything that makes it a bad fit
+  - [ ] Review the report with Claude (chat) and decide whether Element stays or Kubernetes replaces it
 - [ ] Write detection rules v0: stale work, priority changes, work on dropped goals (3h)
 
 **Deliverable:** booked interviews and real issue data. **Gate:** 5+ interviews booked, and data pulled from at least 1 project.
@@ -137,6 +142,8 @@ Every week is 20 hours: 9 to 13, Monday to Friday. Each week ends with a gate. I
 - [ ] Confirm the hero story at the gate and update the assumptions list (1.5h)
 - [ ] Data model shared by the prototype and the real slice: Friction, Fix, Step, Result, Correction (2h)
 - [ ] Run detection on the other 2 projects and tune the rules to cut false alarms (5h)
+  - [ ] Backtest: replay each repo "as of" a past date (e.g. July 1) and run detection. Then check what really happened afterwards. Were the flagged tickets dropped? Did the flagged milestones slip?
+  - [ ] Record the hit rate per repo. It goes into the case study as "it called X of Y correctly"
 - [ ] Line up 2 to 3 check-ups with interviewees who said yes (1h)
 - [ ] Buffer (2h)
 
@@ -312,6 +319,8 @@ It goes on the portfolio site as a new case study page, with the prototype link 
 7. Market: competitors and where Unknot fits
 8. What's next: the phase 2 to 4 roadmap
 
+The public projects prove the detection works. The team check-ups prove the value.
+
 When talking about how it was made, be concrete: "I designed it in Figma and built the prototype with Claude Code."
 
 ## Risks and fallbacks
@@ -349,7 +358,10 @@ This 8-week plan is phase 1. Each later phase gets its own detailed plan once th
 ## Open questions
 
 - [ ] Is "Unknot" free as a name and domain? (week 1)
-- [x] GitHub projects picked: nextcloud/server (milestones), microsoft/vscode (plan vs. backlog moves), element-hq/element-web (team and severity labels)
+- [x] GitHub projects picked:
+  - nextcloud/server: release milestones that slip, work going stale
+  - microsoft/vscode: issues moving between "Backlog Candidates", "On Deck", "Backlog" and release milestones. Huge repo, so only one area label and the last 6 months.
+  - element-hq/element-web: team labels ("Team: Crypto" etc.) and severity/occurrence labels. Severity labels aren't confirmed yet. If they're thin, swap in kubernetes/kubernetes, which has explicit priority labels.
 - [ ] Will Cyvore's founder let you interview their team?
 - [ ] AI drafting: is a free option good enough, or is a small paid monthly cap worth it? (week 4)
 - [ ] Does the case study get its own page on the Figma portfolio site?
